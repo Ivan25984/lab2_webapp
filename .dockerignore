@@ -1,0 +1,11 @@
+bin/
+obj/
+.git/
+.vs/
+.vscode/
+*.DS_Store
+Dockerfile*
+docker-compose*
+.gitignore
+README.md
+*.sln
