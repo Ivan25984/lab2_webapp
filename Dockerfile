@@ -11,4 +11,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine
 WORKDIR /app
 COPY --from=build /app/publish .
 EXPOSE 8080
-ENTRYPOINT ["dotnet", "MyWebApp.dll"]
+CMD ["dotnet", "MyWebApp.dll"]
+
